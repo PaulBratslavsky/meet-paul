@@ -1,0 +1,20 @@
+{
+  "name": "meet-paul",
+  "bin": {
+    "meet-paul": "index.js"
+  },
+  "version": "1.0.0",
+  "description": "My first CLI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Bratslavky",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-welcome": "^2.2.2",
+    "node-fetch": "^2.6.7",
+    "qs": "^6.11.0"
+  }
+}
