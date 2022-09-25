@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Paul Bratslavky",
+  "author": "Paul Bratslavsky",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
