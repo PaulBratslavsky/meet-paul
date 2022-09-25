@@ -12,8 +12,20 @@ async function start() {
   showHeading(messages.welcome, "green");
   showText(messages.bio, "green");
   addSpace();
+  showHeading('===================================================', "green");
+  showHeading('JOBS:', "green");
   messages.resume();
+
+
+  showHeading('===================================================', "green");
+  showHeading('RECENT POSTS:', "green");
+  messages.recentPosts();
+  showHeading('===================================================', "green");
+
+  showHeading('SOCIAL LINKS:', "green");
   messages.links();
+  showHeading('===================================================', "green");
+
   addSpace();
 
 }

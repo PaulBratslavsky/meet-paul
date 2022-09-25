@@ -12,7 +12,17 @@ const query = qs.stringify({
     },
     ResumeItem: {
       populate: "*",
-    }
+    },
+    posts: {
+      populate: "*",
+      filters: {
+        post_group: {
+          slug: {
+            $eq: "coding-after-thirty",
+          }
+        }
+      }
+    },
   },
 })
 
