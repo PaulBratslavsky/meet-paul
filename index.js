@@ -12,6 +12,7 @@ async function start() {
   showHeading(messages.welcome, "green");
   showText(messages.bio, "green");
   addSpace();
+  messages.resume();
   messages.links();
   addSpace();
 
