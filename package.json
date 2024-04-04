@@ -3,7 +3,7 @@
   "bin": {
     "meet-paul": "index.js"
   },
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "My first CLI.",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,9 @@
   "author": "Paul Bratslavsky",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^4.1.2",
+    "chalk": "^5.3.0",
     "cli-welcome": "^2.2.2",
-    "node-fetch": "^2.6.7",
-    "qs": "^6.11.0"
+    "node-fetch": "^3.3.2",
+    "qs": "^6.12.0"
   }
 }
